@@ -106,15 +106,34 @@
 		    android:summary="@string/idle_manager_summary"
 		    android:defaultValue="false" />
 
-
-          <!-- Block wallpaper dimming -->
-          <com.android.settings.custom.preference.SystemSettingSwitchPreference
-               android:key="block_wallpaper_dimming"
-               android:title="@string/miscellaneous_block_wallpaper_dimming_title"
-               android:summary="@string/miscellaneous_block_wallpaper_dimming_summary"
-               android:defaultValue="false" />
     </PreferenceCategory>
     
+    <PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/vibration_category_title">
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="fp_success_vibrate"
+            android:title="@string/fp_success_vibrate_title"
+            android:summary="@string/fp_success_vibrate_summary"
+            android:defaultValue="true" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="fp_error_vibrate"
+            android:title="@string/fp_error_vibrate_title"
+            android:summary="@string/fp_error_vibrate_summary"
+            android:defaultValue="true" />
+
+        <!-- Block wallpaper dimming -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="block_wallpaper_dimming"
+            android:title="@string/miscellaneous_block_wallpaper_dimming_title"
+            android:summary="@string/miscellaneous_block_wallpaper_dimming_summary"
+            android:defaultValue="false" />
+
+        </PreferenceCategory>
+
+
     <PreferenceCategory
         android:key="security_category"
 	   android:title="@string/security_category" >
