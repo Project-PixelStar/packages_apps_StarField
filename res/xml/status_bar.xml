@@ -44,6 +44,13 @@
                 android:title="@string/wifi_standard_icon_title"
                 android:summary="@string/wifi_standard_icon_summary"
                 android:defaultValue="false"/>
+
+            <Preference
+                android:key="sbbatteryicons"
+                android:title="@string/status_bar_battery_style_title"
+                android:summary="@string/status_bar_battery_style_summary"
+                android:fragment="com.star.field.fragments.BatteryStyleSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
