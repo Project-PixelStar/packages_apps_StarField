@@ -341,4 +341,10 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
+    <!-- Screen off animation -->
+    <string name="default_string">Default</string>
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_crt" translatable="false">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
 </resources>
