@@ -148,5 +148,15 @@
                android:summary="@string/spoof_storage_encryption_status_summary"
                android:defaultValue="false"/>
 
+          <PreferenceCategory
+              android:key="miscellaneous_spoofing_category"
+              android:title="@string/miscellaneous_spoofing_category">
+              <Preference
+                  android:key="spoofing"
+                  android:title="@string/spoofing_title"
+                  android:summary="@string/spoofing_title_summary"
+                  android:fragment="com.star.field.fragments.Spoof" />
+              </PreferenceCategory>
+
     </PreferenceCategory>     
 </PreferenceScreen>
