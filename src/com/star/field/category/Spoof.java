@@ -71,7 +71,7 @@ public class Spoof extends SettingsPreferenceFragment
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.category_misc;
+                    sir.xmlResId = R.xml.category_spoofing;
                     return Arrays.asList(sir);
                 }
 
