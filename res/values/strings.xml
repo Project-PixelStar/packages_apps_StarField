@@ -401,4 +401,9 @@
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
+
+    <!-- Monet boot animation -->
+    <string name="monet_boot_animation_title">Dynamic color boot animation</string>
+    <string name="monet_boot_animation_summary">Use dynamic color themed boot animation that supports applying highlight colors from your wallpapers.</string>
+
 </resources>
